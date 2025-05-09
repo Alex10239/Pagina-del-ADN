@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre ADN y ARN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #57d352;
+        }
+        .title {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+        .section {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            padding: 20px;
+            width: 80%;
+            animation: Sube 2s;
+        }
+        .section img {
+            max-width: 200px;
+            border-radius: 10px;
+            animation: Muvete 2s;
+        }
+        .section p {
+            max-width: 500px;
+            margin-left: 20px;
+        }
+        footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background: black;
+            width: 1450px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+
+        }
+        @keyframes Sube{
+            0%{transform: translateY(100px);}
+        }
+        @keyframes Muvete{
+            0%{transform: translateX(-100px);}
+        }
+    </style>
+</head>
+<body>
+
+    <div class="title">Información sobre el ADN y el ARN</div>
+
+    <div class="section">
+        <img src="ADN.img" alt="Imagen de ADN">
+        <p>
+            <strong>ADN (Ácido Desoxirribonucleico):</strong> Es la molécula portadora de la información genética en los organismos vivos. 
+            Está compuesto por dos cadenas enrolladas en una doble hélice, formadas por nucleótidos que contienen un grupo fosfato, un azúcar 
+            (desoxirribosa) y una base nitrogenada (adenina, timina, citosina o guanina). El ADN es responsable de la herencia y dirige la 
+            síntesis de proteínas.
+        </p>
+    </div>
+
+    <div class="section">
+        <img src="ARN.img" alt="Imagen de ARN">
+        <p>
+            <strong>ARN (Ácido Ribonucleico):</strong> Es una molécula que participa en la síntesis de proteínas y en la transmisión de información 
+            genética del ADN. Está compuesto por una cadena simple de nucleótidos que contienen un grupo fosfato, un azúcar (ribosa) y bases 
+            nitrogenadas (adenina, uracilo, citosina o guanina). El ARN existe en varias formas, como el ARN mensajero, ARN de transferencia y 
+            ARN ribosomal.
+        </p>
+    </div>
+
+    <div class="section">
+        <div>
+            <h3>Diferencias entre ADN y ARN:</h3>
+            <table border="1" cellpadding="10" style="border-collapse: collapse; width: 100%;">
+                <thead>
+                    <tr>
+                        <th>Característica</th>
+                        <th>ADN</th>
+                        <th>ARN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Estructura</td>
+                        <td>Doble cadena</td>
+                        <td>Cadena simple</td>
+                    </tr>
+                    <tr>
+                        <td>Base nitrogenada única</td>
+                        <td>Timina</td>
+                        <td>Uracilo</td>
+                    </tr>
+                    <tr>
+                        <td>Tipo de azúcar</td>
+                        <td>Desoxirribosa</td>
+                        <td>Ribosa</td>
+                    </tr>
+                    <tr>
+                        <td>Ubicación</td>
+                        <td>Núcleo</td>
+                        <td>Núcleo y citoplasma</td>
+                    </tr>
+                    <tr>
+                        <td>Función principal</td>
+                        <td>Almacenar información genética</td>
+                        <td>Intermediario en la síntesis de proteínas</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        &copy; Miguel Hiciano
+    </footer>
+
+</body>
+</html>
